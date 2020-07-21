@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 
-<!-- Mirrored from design.dev.drcsystems.ooo:8084/themeforest/easyliving/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Jun 2020 09:36:59 GMT -->
+<!-- Mirrored from design.dev.drcsystems.ooo:8084/themeforest/easyliving/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Jun 2020 09:40:29 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,28 +42,6 @@
 
 <body>
 	<div id="wrapper" class="innerPage">
-    	<!-- Style Box Start -->
-    	<div class="style-box">
-        	<div class="box-icon"><i class="fa fa-cog"></i></div>
-            <div class="inner-box">
-            	<h2>Style Selector </h2>
-                <!--<h3>Layout Style</h3>
-                <div class="layout-style">
-                	<div class="full-layout"><div class="box"></div><span>Fullwidth</span></div>
-                    <div class="box-layout"><div class="box"></div><span>Boxed</span></div> 
-                </div>-->
-                <h3>Predefined Colors</h3>
-                <div class="color-box">	
-                	<ul>
-                    	<li class="theme-1"><a href="javascript:void(0);"></a></li>
-                        <li class="theme-2"><a href="javascript:void(0);"></a></li>
-                        <li class="theme-3"><a href="javascript:void(0);"></a></li>
-                        <li class="theme-4"><a href="javascript:void(0);"></a></li>
-                        <li class="theme-5"><a href="javascript:void(0);"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <!-- Header Start -->
         <header id="header">
         	<div class="container"> 
@@ -88,7 +66,7 @@
                                 <div class="navbar-collapse">
                                     <ul class="nav navbar-nav">
                                         <li><a href="index.html">Home</a></li>
-                                        <li class="active"><a href="about-us.html">About Us</a></li>
+                                        <li><a href="about-us.html">About Us</a></li>
                                         <li><a href="gallery.html">Our Services</a></li>
                                         <li><a href="faq.html">FAQ’s</a></li>
                                         <li><a href="#">Pages <em class="fa fa-angle-down" aria-hidden="true"></em></a>
@@ -103,7 +81,7 @@
                                                 <li><a href="service-1.html">Book Service</a> </li>
                                             </ul> 
                                         </li>
-                                        <li><a href="contact-us.html">Contact Us</a></li> 
+                                        <li class="active"><a href="contact-us.html">Contact Us</a></li> 
                                     </ul>
                                 </div>
                             </nav>
@@ -201,235 +179,74 @@
                 </div>
             </div>
         </section>
-        <!-- Banner Section -->
-        <section id="banner" class="banner-slider">
-			<div class="banner-img-slider">
-				<div>
-					<div class="banner-thumb"><img src="assets/images/banner-img/abt-us-banner.jpg" alt="" class="hide" /></div>
-				</div>
-			</div>
-			<div class="blue-overlay"></div>
-			<div class="banner-text-wrapper">
-                <div class="container">
-                    <div class="banner-text">
-                        <div class="row">
-                        	<div class="col-md-6 col-md-offset-3">
-                            	<h1>About Us</h1>
-                        		
-                            </div>
-                        </div>
-                    </div>
-                </div>
-			</div>
-		</section>
+       
         
         <!-- Content Start -->
         <div id="content">
-        	<!-- Our Story -->
-            <section id="our-story" class="section-block">
+        	<!-- Contact Us Section -->
+            <section id="contact-us" class="section-block"> 
             	<div class="container">
                 	<div class="top-desc text-center">
-                        <h2>Our Story</h2>
-                        <p class="sub-heading">You’re in the right place!</p>
+                        <h2>Contact Us</h2>
                     </div>
-                    <div class="our-detail">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
+                    <div class="row">
+                    	<div class="col-sm-8">
+                        	<h3>Write Us</h3>
+                        	<form id="contact_form">
+                            	<div class="row">
+                                	<div class="col-md-6">
+                                    	<div class="form-group">
+                                        	<label>First Name</label>
+                                            <input type="text" name="fname" class="form-control" data-validation="required" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                    	<div class="form-group">
+                                        	<label>Last Name</label>
+                                            <input type="text" name="lname" class="form-control" data-validation="required"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                	<div class="col-md-6">
+                                    	<div class="form-group">
+                                        	<label>Email</label>
+                                            <input type="text" name="email" class="form-control" data-validation="email"  data-validation-error-msg="Invalid e-mail address"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                    	<div class="form-group">
+                                        	<label>Phone Number</label>
+                                            <input type="text" name="phno" class="form-control" data-validation="required"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Message</label>
+                                    <textarea name="msg" class="form-control" ></textarea>
+                                </div>
+                                <div class="form-group">
+                                	<input type="submit" class="btn btn-info" value="SEND" id="attending_btn"/>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-sm-4">
+                        	<h3>Our Office Address</h3>
+                            <address>
+                            	<p><i class="fa fa-map-marker" aria-hidden="true"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p><i class="fa fa-phone" aria-hidden="true"></i>+1 123 456 7890</p>
+                                <p><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a></p>
+                            </address>
+                        </div>
                 	</div>
-                	<div class="row">
-                    	<div class="col-sm-4">
-                        	<h3>Vision</h3>
-                        	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industry's standard dummy text .</p>
-                        </div>
-                        <div class="col-sm-4">
-                        	<h3>Mission</h3>
-                        	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industry's standard dummy text .</p>
-                        </div>
-                        <div class="col-sm-4">
-                        	<h3>Our Values</h3>
-                        	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industry's standard dummy text .</p>
-                        </div>
-                    </div> 
                 </div>
             </section>
-            <!-- Our info section -->
-            <section id="our-info" class="section-block">
-            	<div class="blue-overlay"></div>
-            	<div class="container">
-                	<div class="row">
-                    	<div class="col-sm-4">
-                        	<i class="icon icon-empowered" aria-hidden="true"></i>
-                            <h3><span class="counter">150,000</span>+</h3>
-                            <p>Empowered</p>
-                        </div>
-                        <div class="col-sm-4">
-                        	<i class="icon icon-borrowed" aria-hidden="true"></i>
-                            <h3>$<span class="counter">5</span> billion+</h3>
-                            <p>Borrowed</p>
-                        </div>
-                        <div class="col-sm-4">
-                        	<i class="icon icon-rating" aria-hidden="true"></i>
-                            <h3>Customer</h3>
-                            <p>Rating</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        	<!-- Our team section -->
-            <section id="our-team" class="section-block">
-            	<div class="container">
-                	<div class="top-desc text-center">
-                        <h2>Our TEAM</h2>
-                        <p class="sub-heading">You’re in the right place!</p>
-                    </div>
-                    <div class="row">
-                    	<div class="col-sm-4">
-                        	<div class="img"><img src="assets/images/team-img/team-img1.jpg" alt="" /></div>
-                            <div class="name"><a href="team-member.html"><span>John Doe</span>  |  Co-Founder &quot; CEO</a></div> 
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                        	<ul class="list-inline social-share">
-                                <li><a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i aria-hidden="true" class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4">
-                        	<div class="img"><img src="assets/images/team-img/team-img1.jpg" alt="" /></div>
-                            <div class="name"><a href="team-member.html"><span>John Doe</span>  |  Co-Founder &quot; CEO</a></div> 
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                        	<ul class="list-inline social-share">
-                                <li><a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i aria-hidden="true" class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4">
-                        	<div class="img"><img src="assets/images/team-img/team-img1.jpg" alt="" /></div>
-                            <div class="name"><a href="team-member.html"><span>John Doe</span>  |  Co-Founder &quot; CEO</a></div> 
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                        	<ul class="list-inline social-share">
-                                <li><a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i aria-hidden="true" class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section> 
-        	<!-- Our services Section -->
-            <section id="services" class="section-block">
-            	<div class="container">
-                	<div class="top-desc text-center">
-                        <h2>our Services</h2>
-                        <p class="sub-heading">You’re in the right place!</p>
-                    </div>
-                    <div class="service-slider">
-                        <div class="col-md-3 col-sm-6">
-                        	<a href="gallery.html">
-                                <div class="img"><img src="assets/images/service-img/service-img1.jpg" alt="" /></div>
-                                <span class="name">Electrical</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <a href="gallery.html">
-                                <div class="img"><img src="assets/images/service-img/service-img2.jpg" alt="" /></div>
-                                <span class="name">Plumbing</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <a href="gallery.html">
-                                <div class="img"><img src="assets/images/service-img/service-img3.jpg" alt="" /></div>
-                                <span class="name">Pest Control</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <a href="gallery.html">
-                                <div class="img"><img src="assets/images/service-img/service-img4.jpg" alt="" /></div>
-                                <span class="name">Painting</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <a href="gallery.html">
-                                <div class="img"><img src="assets/images/service-img/service-img5.jpg" alt="" /></div>
-                                <span class="name">Cleaning</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <a href="gallery.html">
-                                <div class="img"><img src="assets/images/service-img/service-img6.jpg" alt="" /></div>
-                                <span class="name">Appliances</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <a href="gallery.html">
-                                <div class="img"><img src="assets/images/service-img/service-img7.jpg" alt="" /></div>
-                                <span class="name">Carpentry</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <a href="gallery.html">
-                                <div class="img"><img src="assets/images/service-img/service-img8.jpg" alt="" /></div>
-                                <span class="name">Computer Repair</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <a href="gallery.html">
-                                <div class="img"><img src="assets/images/service-img/service-img9.jpg" alt="" /></div>
-                                <span class="name">Home Security</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <a href="gallery.html">
-                                <div class="img"><img src="assets/images/service-img/service-img10.jpg" alt="" /></div>
-                                <span class="name">Geyser</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <a href="gallery.html">
-                                <div class="img"><img src="assets/images/service-img/service-img11.jpg" alt="" /></div>
-                                <span class="name">Vehicle Care</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <a href="gallery.html">
-                                <div class="img"><img src="assets/images/service-img/service-img12.jpg" alt="" /></div>
-                                <span class="name">Spa</span>
-                            </a>
-                        </div>
-                    </div>  
-                </div>
-            </section> 
-          
-        	
-            <!-- Our services Section -->
-            <section id="our-services" class="section-block">
-            	<div class="container">
-                    <div class="row">
-                    	<div class="col-md-3 col-sm-6">
-                            <div class="icon-box"><i class="icon icon-verifiedprofessionals" aria-hidden="true"></i></div>
-                            <div class="name">Verified Professionals</div>
-                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry.</p>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="icon-box"><i class="icon icon-insuredwork" aria-hidden="true"></i></div>
-                            <div class="name">Insured Work</div>
-                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry.</p>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="icon-box"><i class="icon icon-satisfactionguaranteed" aria-hidden="true"></i></div>
-                            <div class="name">Satisfaction Guaranteed</div>
-                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry.</p>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="icon-box"><i class="icon icon-easypayment" aria-hidden="true"></i></div>
-                            <div class="name">Easy Payment</div>
-                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-      	</div>
+             <!-- Contact Map -->
+            <div class="contact-map">
+                <div id="map" class="map inside-full-height"></div>
+            </div>
+        </div>   
+           
         <!-- Footer Start -->
         <footer id="footer">
         	<div class="top-footer">
@@ -523,8 +340,11 @@
     <script src="assets/js/bootstrap-select.min.js"></script><!-- Bootstrap selectbox js-->
     <script src="assets/js/waypoints.min.js"></script> 
 	<script src="assets/js/jquery.counterup.min.js"></script><!-- counter js -->
-    <script src="assets/js/custom.js"></script><!-- custom js--> 
+    <script src="assets/js/jquery.form-validator.min.js"></script><!-- form-validator js-->  
+    <script type='text/javascript' src='https://maps.google.com/maps/api/js?key=AIzaSyAciPo9R0k3pzmKu6DKhGk6kipPnsTk5NU'></script>
+    <script src="assets/js/map-cstomize.js" type="text/javascript"></script><!-- map js-->
+	<script src="assets/js/custom.js"></script><!-- custom js--> 
 </body>
 
-<!-- Mirrored from design.dev.drcsystems.ooo:8084/themeforest/easyliving/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Jun 2020 09:37:50 GMT -->
+<!-- Mirrored from design.dev.drcsystems.ooo:8084/themeforest/easyliving/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Jun 2020 09:40:32 GMT -->
 </html>

@@ -202,7 +202,7 @@
                     </div>
                     <div class="row">
                     	<div class="col-md-8 col-md-offset-2">
-                        	<form>
+                        	<form name="step_1" method="POST">
                               <!--
                           <div class="row">
                                 	<div class="col-sm-6">
@@ -223,8 +223,9 @@
                                 	<div class="col-sm-6">
                                     	<div class="form-group">
                                         <label>Select a service</label>
-                                        	<select class="selectpicker">
-                                          <option value="Agri Business">Agri Business</option>
+                                        	<select class="selectpicker" name="service_name" id="serviceName">
+                                            <option selected="selected"></option>
+                                            <option value="Agri Business">Agri Business</option>
                                           <option value="Fashion Designer">Fashion Designer</option>
                                           <option value="Plumber">Plumber</option>
                                           <option value="Carpenter">Carpenter</option>
@@ -244,8 +245,9 @@
                                     <div class="col-sm-6">
                                     	<div class="form-group">
                                       <label>How soon do you need the service?</label>
-                                        	<select class="selectpicker">
-                                                <option value="Urgently Needed">Urgently Needed</option>
+                                        	<select class="selectpicker" name="service_priority" id="servicePriority">
+                                            <option selected="selected"></option>
+                                            <option value="Urgently Needed">Urgently Needed</option>
                                                 <option value="Tomorrow">Tomorrow</option>
                                                 <option value="Week End">Week End</option>
                                                 <option value="Others">Others</option>
@@ -255,7 +257,7 @@
                                 </div>
                                 <div class="form-group text-center">
                                 	<div class="group-btn">
-                                    	<a href="service-2.html" class="btn btn-info">Next</a>
+                                    	<input type="submit" value="Next" name="submit" class="btn btn-info" onclick="return validate()">
                                     </div>
                                     <p class="help-block">We will contact you within Two hours </p>
                                 </div>
@@ -333,17 +335,17 @@
                         <div class="col-sm-3">
                         	<span class="icon-box"><i class="icon icon-24x7support" aria-hidden="true"></i></span>
                             <div class="name">24 x 7 Support</div> 
-                            <p>Our customer service support is always happy to  .</p>
+                            <p>Our dedicated all day customer service support is always happy to help you.</p>
                         </div>
                         <div class="col-sm-3">
                         	<span class="icon-box"><i class="fa fa-money" aria-hidden="true"></i></span>
-                            <div class="name">Insurance Claim</div> 
-                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry.</p>
+                            <div class="name">Easy Payment</div> 
+                            <p>Our online payments process is easy and simple. You can also pay after service delivery.</p>
                         </div>
                         <div class="col-sm-3">
                         	<span class="icon-box"><i class="icon icon-trainedcertified" aria-hidden="true"></i></span>
-                            <div class="name">Trained & Certified</div> 
-                            <p>Lorem Ipsum is simply dummy text the printing and typesetting industry.</p>
+                            <div class="name">Verified Professionals</div> 
+                            <p>All our services providers are well trained and oriented.</p>
                         </div>
                     </div>
                 </div>
@@ -443,8 +445,8 @@
                                 	<ul class="links">
                                         <li><a href="home">Home</a></li>
                                         <li><a href="about-us">About</a></li>
-                                        <li><a href="#">Register</a></li>
-                                        <li><a href="#">Login</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" id="myModalLabel">Register</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" id="myModalLabel">Login</a></li>
                                         <li><a href="#">Careers</a></li>
                                         <li><a href="contact-us">Contact</a></li>
                                     </ul>
@@ -461,25 +463,25 @@
                             </div>
                         </div> 
                         <div class="col-md-4 col-sm-6">
-                            <h3>Our Services</h3>
+                            <h3>Book a Services</h3>
                             <div class="row">
                             	<div class="col-xs-6">
                                 	<ul class="links">
-                                        <li><a href="#">Cleaning Service</a></li>
-                                        <li><a href="#">Pest Control</a></li>
-                                        <li><a href="#">Electrical</a></li>
-                                        <li><a href="#">Plumbing</a></li>
-                                        <li><a href="#">Appliance  Services</a></li>
-                                        <li><a href="#">Carpentry</a></li>
+                                        <li><a href="all-services-bookings">Cleaning Service</a></li>
+                                        <li><a href="all-services-bookings">Pest Control</a></li>
+                                        <li><a href="all-services-bookings">Electrical</a></li>
+                                        <li><a href="all-services-bookings">Plumbing</a></li>
+                                        <li><a href="all-services-bookings">Appliance  Services</a></li>
+                                        <li><a href="all-services-bookings">Carpentry</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-xs-6">
                                 	<ul class="links">
-                                        <li><a href="#">Medical Service</a></li>
-                                        <li><a href="#">Auto Works</a></li>
-                                        <li><a href="#">Painting</a></li>
-                                        <li><a href="#">Home Security</a></li>
-                                        <li><a href="#">Computer Repair</a></li>
+                                        <li><a href="all-services-bookings">Medical Service</a></li>
+                                        <li><a href="all-services-bookings">Auto Works</a></li>
+                                        <li><a href="all-services-bookings">Painting</a></li>
+                                        <li><a href="all-services-bookings">Home Security</a></li>
+                                        <li><a href="all-services-bookings">Computer Repair</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -500,12 +502,12 @@
                     </div>
                     <div class="quick-links">
                         <ul class="list-inline">
-                            <li><a href="about-us.html">About us</a></li>
+                            <li><a href="about-us">About us</a></li>
                             <li><a href="#">Privacy</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="faq">FAQ</a></li>
                             <li><a href="#">Terms of Use</a></li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
-                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact-us">Contact Us</a></li>
+                            <li><a href="#">Blog</a></li>
                         </ul>
                     </div>
                 </div>
@@ -526,6 +528,25 @@
   <script src="assets/js/jquery.counterup.min.js"></script><!-- counter js -->
     <script src="assets/js/custom.js"></script><!-- custom js--> 
     <script type="text/javascript" src="assets/js/jquery-1.6.1.min.js"></script> <!-- Scroll to top script-->
+    <script>
+function validate() {
+
+
+var serviceName = document.getElementById('serviceName');
+var servicePriority = document.getElementById('servicePriority');
+
+if (serviceName.value == "") {
+  alert("Please, Select a Service!");
+  return false;
+}
+
+if (servicePriority.value == "") {
+  alert("Kindly select when you need the service! ");
+  return false;
+}
+}</script>
+    
+    
     <script>
 $(document).ready(function(){
 	$(window).scroll(function () {

@@ -215,19 +215,19 @@
                                         	<div class="service-list">
                                                 <form name="myform" id="myform" enctype="multipart/form-data" method="post">
                                                     <select class="mydds" name="myimge">
-                                                        <option value="" selected="selected" title="">What service do you need?</option>
-                                                        <option value="Electrical" title="icon icon-electrical" class="service1">Electrical</option>
-                                                        <option value="security" title="icon icon-home">Home Security</option>
-                                                        <option value="Pest Control" title="icon icon-pestcontrol">Pest Control</option>
-                                                        <option value="Computer Repair" title="icon icon-computerrepair">Computer Repair</option>
-                                                        <option value="Cleaners" title="icon icon-cleaning">Cleaners</option>
-                                                        <option value="Plumber" title="icon icon-plumber">Plumbing</option>
-                                                        <option value="appliances" title="icon icon-appliances">Appliances</option>
-                                                        <option value="Fashion Designer" title="icon icon-geyser">Fashion Designer</option>
-                                                        <option value="Painting" title="icon icon-painting">Painting</option>
-                                                        <option value="Vehicle Care" title="icon icon-vehiclecare">Vehicle Care</option>
-                                                        <option value="Carpentry" title="icon icon-carpentry">Carpentry</option>
-                                                        <option value="Real Estate" title="icon icon-home">Real Estate</option>
+                                                    <option value="" selected="selected" title="">What service do you need?</option>
+                                                        <option value="all-services-bookings" title="icon icon-electrical" class="service1">Electrical</option>
+                                                        <option value="all-services-bookings" title="icon icon-home">Home Security</option>
+                                                        <option value="all-services-bookings" title="icon icon-pestcontrol">Pest Control</option>
+                                                        <option value="all-services-bookings" title="icon icon-computerrepair">Computer Repair</option>
+                                                        <option value="all-services-bookings" title="icon icon-cleaning">Cleaners</option>
+                                                        <option value="all-services-bookings" title="icon icon-plumber">Plumbing</option>
+                                                        <option value="all-services-bookings" title="icon icon-appliances">Appliances</option>
+                                                        <option value="all-services-bookings" title="icon icon-geyser">Fashion Designer</option>
+                                                        <option value="all-services-bookings" title="icon icon-painting">Painting</option>
+                                                        <option value="all-services-bookings" title="icon icon-vehiclecare">Vehicle Care</option>
+                                                        <option value="all-services-bookings" title="icon icon-carpentry">Carpentry</option>
+                                                        <option value="all-services-bookings" title="icon icon-home">Real Estate</option>
 
                                                     </select>
                                                 </form>
@@ -518,8 +518,8 @@
                                 	<ul class="links">
                                         <li><a href="home">Home</a></li>
                                         <li><a href="about-us">About</a></li>
-                                        <li><a href="#">Register</a></li>
-                                        <li><a href="#">Login</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" id="myModalLabel">Register</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" id="myModalLabel">Login</a></li>
                                         <li><a href="#">Careers</a></li>
                                         <li><a href="contact-us">Contact</a></li>
                                     </ul>
@@ -536,25 +536,25 @@
                             </div>
                         </div> 
                         <div class="col-md-4 col-sm-6">
-                            <h3>Our Services</h3>
+                        <h3>Book a Services</h3>
                             <div class="row">
                             	<div class="col-xs-6">
                                 	<ul class="links">
-                                        <li><a href="#">Cleaning Service</a></li>
-                                        <li><a href="#">Pest Control</a></li>
-                                        <li><a href="#">Electrical</a></li>
-                                        <li><a href="#">Plumbing</a></li>
-                                        <li><a href="#">Appliance  Services</a></li>
-                                        <li><a href="#">Carpentry</a></li>
+                                        <li><a href="all-services-bookings">Cleaning Service</a></li>
+                                        <li><a href="all-services-bookings">Pest Control</a></li>
+                                        <li><a href="all-services-bookings">Electrical</a></li>
+                                        <li><a href="all-services-bookings">Plumbing</a></li>
+                                        <li><a href="all-services-bookings">Appliance  Services</a></li>
+                                        <li><a href="all-services-bookings">Carpentry</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-xs-6">
                                 	<ul class="links">
-                                        <li><a href="#">Medical Service</a></li>
-                                        <li><a href="#">Auto Works</a></li>
-                                        <li><a href="#">Painting</a></li>
-                                        <li><a href="#">Home Security</a></li>
-                                        <li><a href="#">Computer Repair</a></li>
+                                        <li><a href="all-services-bookings">Medical Service</a></li>
+                                        <li><a href="all-services-bookings">Auto Works</a></li>
+                                        <li><a href="all-services-bookings">Painting</a></li>
+                                        <li><a href="all-services-bookings">Home Security</a></li>
+                                        <li><a href="all-services-bookings">Computer Repair</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -575,12 +575,12 @@
                     </div>
                     <div class="quick-links">
                         <ul class="list-inline">
-                            <li><a href="about-us.html">About us</a></li>
+                            <li><a href="about-us">About us</a></li>
                             <li><a href="#">Privacy</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="faq">FAQ</a></li>
                             <li><a href="#">Terms of Use</a></li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
-                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact-us">Contact Us</a></li>
+                            <li><a href="#">Blog</a></li>
                         </ul>
                     </div>
                 </div>

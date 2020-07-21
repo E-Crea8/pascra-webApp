@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"> 
 
-<!-- Mirrored from design.dev.drcsystems.ooo:8084/themeforest/easyliving/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Jun 2020 09:40:29 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +10,7 @@
     <meta name="author" content=""> 
     
     <!-- Title -->
-    <title>easy living</title> 
+    <title>Frequently Asked Questions</title> 
     
     <!-- favicon icon -->
     <link rel="icon" href="assets/images/favicon.ico">
@@ -42,28 +41,6 @@
 
 <body>
 	<div id="wrapper" class="innerPage">
-    	<!-- Style Box Start -->
-    	<div class="style-box">
-        	<div class="box-icon"><i class="fa fa-cog"></i></div>
-            <div class="inner-box">
-            	<h2>Style Selector </h2>
-                <!--<h3>Layout Style</h3>
-                <div class="layout-style">
-                	<div class="full-layout"><div class="box"></div><span>Fullwidth</span></div>
-                    <div class="box-layout"><div class="box"></div><span>Boxed</span></div> 
-                </div>-->
-                <h3>Predefined Colors</h3>
-                <div class="color-box">	
-                	<ul>
-                    	<li class="theme-1"><a href="javascript:void(0);"></a></li>
-                        <li class="theme-2"><a href="javascript:void(0);"></a></li>
-                        <li class="theme-3"><a href="javascript:void(0);"></a></li>
-                        <li class="theme-4"><a href="javascript:void(0);"></a></li>
-                        <li class="theme-5"><a href="javascript:void(0);"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <!-- Header Start -->
         <header id="header">
         	<div class="container"> 
@@ -86,24 +63,12 @@
                             <nav class="navigation">
                             	<div class="close-menu"><i class="fa fa-close" aria-hidden="true"></i></div>
                                 <div class="navbar-collapse">
-                                    <ul class="nav navbar-nav">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about-us.html">About Us</a></li>
-                                        <li><a href="gallery.html">Our Services</a></li>
-                                        <li><a href="faq.html">FAQ’s</a></li>
-                                        <li><a href="#">Pages <em class="fa fa-angle-down" aria-hidden="true"></em></a>
-                                        	<ul class="dropdown-menu"> 
-                                            	<li><a href="team.html">Our Team V1</a></li>
-                                                <li><a href="team-2.html">Our Team V2</a></li>
-                                                <li><a href="team-member.html">Team Member</a></li>
-                                            	<li><a href="my-dashboard.html">My Dashboard</a></li>
-                                                <li><a href="order-status.html">My Orders</a></li>
-                                                <li><a href="404-page.html">404 Page</a></li>
-                                                <li><a href="coming-soon.html">Comingsoon</a></li>
-                                                <li><a href="service-1.html">Book Service</a> </li>
-                                            </ul> 
-                                        </li>
-                                        <li class="active"><a href="contact-us.html">Contact Us</a></li> 
+                                <ul class="nav navbar-nav">
+                                        <li><a href="home">Home</a></li>
+                                        <li><a href="about-us">About Us</a></li>
+                                        <li><a href="gallery">Our Services</a></li>
+                                        <li class="active"><a href="faq">FAQ’s</a></li>
+                                        <li><a href="contact-us">Contact Us</a></li> 
                                     </ul>
                                 </div>
                             </nav>
@@ -127,22 +92,26 @@
                                     <div>
                                         <div class="icon-box"><i class="icon icon-verifiedprofessionals" aria-hidden="true"></i></div>
                                         <div class="name">Verified Professionals</div>
-                                        <p>Lorem Ipsum is simply dummy text the printing and typesetting industry.</p>
+                                        <p>All our service providers are professional. PASCRA is your best bet.</p>
                                     </div>
                                     <div>
                                         <div class="icon-box"><i class="icon icon-insuredwork" aria-hidden="true"></i></div>
-                                        <div class="name">Insured Work</div>
-                                        <p>Lorem Ipsum is simply dummy text the printing and typesetting industry.</p>
+                                        <div class="name">Experienced &amp; Reliable</div>
+                                        <p>PASCRA is a safe haven for Nigerians in Diaspora to get connected to services providers 
+                                          through a trusted firm.</p>
                                     </div>
                                     <div>
                                         <div class="icon-box"><i class="icon icon-satisfactionguaranteed" aria-hidden="true"></i></div>
                                         <div class="name">Satisfaction Guaranteed</div>
-                                        <p>Lorem Ipsum is simply dummy text the printing and typesetting industry.</p>
+                                        <p>PASCRA has been connecting service providers to prospective clients for over 10 Years. 
+                                          Customer satisfaction is our utmost concerns.</p>
                                     </div>
                                     <div>
                                         <div class="icon-box"><i class="icon icon-easypayment" aria-hidden="true"></i></div>
-                                        <div class="name">Easy Payment</div>
-                                        <p>Lorem Ipsum is simply dummy text the printing and typesetting industry.</p>
+                                        <div class="name">Seamless Service</div>
+                                        <p>You don't need to be worried. We provide you with you with the best service provider that
+                                          best suit your needs.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -205,70 +174,111 @@
         
         <!-- Content Start -->
         <div id="content">
-        	<!-- Contact Us Section -->
-            <section id="contact-us" class="section-block"> 
+        	<!-- FAQ's Section -->
+            <section id="faq" class="section-block">
             	<div class="container">
                 	<div class="top-desc text-center">
-                        <h2>Contact Us</h2>
+                        <h2>frequently asked questions</h2>
                     </div>
-                    <div class="row">
-                    	<div class="col-sm-8">
-                        	<h3>Write Us</h3>
-                        	<form id="contact_form">
-                            	<div class="row">
-                                	<div class="col-md-6">
-                                    	<div class="form-group">
-                                        	<label>First Name</label>
-                                            <input type="text" name="fname" class="form-control" data-validation="required" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                    	<div class="form-group">
-                                        	<label>Last Name</label>
-                                            <input type="text" name="lname" class="form-control" data-validation="required"/>
-                                        </div>
-                                    </div>
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                        	<div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What is PASCRA? 
+                                    </a>
+                                </h4>
+                            </div>
+                        	<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                	<p>Pascra is an online platform where we connect and recommend service 
+                                    provider to prospective customers. PASCRA helps you reduces the stress of
+                                  looking for a service provider here and there. </p>
                                 </div>
-                                <div class="row">
-                                	<div class="col-md-6">
-                                    	<div class="form-group">
-                                        	<label>Email</label>
-                                            <input type="text" name="email" class="form-control" data-validation="email"  data-validation-error-msg="Invalid e-mail address"/>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                    	<div class="form-group">
-                                        	<label>Phone Number</label>
-                                            <input type="text" name="phno" class="form-control" data-validation="required"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Message</label>
-                                    <textarea name="msg" class="form-control" ></textarea>
-                                </div>
-                                <div class="form-group">
-                                	<input type="submit" class="btn btn-info" value="SEND" id="attending_btn"/>
-                                </div>
-                            </form>
+                            </div>
                         </div>
-                        <div class="col-sm-4">
-                        	<h3>Our Office Address</h3>
-                            <address>
-                            	<p><i class="fa fa-map-marker" aria-hidden="true"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <p><i class="fa fa-phone" aria-hidden="true"></i>+1 123 456 7890</p>
-                                <p><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a></p>
-                            </address>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    	Can PASRA get me any of my service choice? 
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                	<p>PASCRA is an avenue where people can easily register their services and connecting with 
+                                    the people who need such services without discrimination or the fear of being duped. All our service 
+                                  providers are legally registered with us.</p>
+                                </div>
+                            </div>
                         </div>
-                	</div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                      Is this platform safe?
+                                    
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                	<p>It is particularly a safe haven for Nigerians in Diaspora to get 
+                                    connected to services providers through a trusted firm that will not
+                                     only recommend but supervise any service the client so requested. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                        	<div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    	How can I become one of your service provider?
+                                    </a>
+                                </h4>
+                            </div>
+                        	<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">
+                                <p>You can be part of our team by following the link below</p>
+                                <p><a href="#" style="padding: 10px; border-radius: 3px; box-shadow: 2px 2px 2px #333;">Register here</a></p>
+                                </div>
+                            </div>
+                        </div> 
+                        <!--<div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    	Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body">
+                                	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                </div>
+                            </div>
+                        </div>-->
+                        <!--<div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingSix">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                <div class="panel-body">
+                                	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                	 
                 </div>
             </section>
-             <!-- Contact Map -->
-            <div class="contact-map">
-                <div id="map" class="map inside-full-height"></div>
-            </div>
-        </div>   
-           
+      	</div>
         <!-- Footer Start -->
         <footer id="footer">
         	<div class="top-footer">
@@ -279,12 +289,12 @@
                             <div class="row">
                             	<div class="col-xs-6">
                                 	<ul class="links">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about-us.html">About</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">For Corporates</a></li>
+                                        <li><a href="home">Home</a></li>
+                                        <li><a href="about-us">About</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" id="myModalLabel">Register</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" id="myModalLabel">Login</a></li>
                                         <li><a href="#">Careers</a></li>
-                                        <li><a href="contact-us.html">Contact</a></li>
+                                        <li><a href="contact-us">Contact</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-xs-6">
@@ -299,32 +309,32 @@
                             </div>
                         </div> 
                         <div class="col-md-4 col-sm-6">
-                            <h3>Our Services</h3>
+                        <h3>Book a Services</h3>
                             <div class="row">
                             	<div class="col-xs-6">
                                 	<ul class="links">
-                                        <li><a href="#">Cleaning</a></li>
-                                        <li><a href="#">Pest Control</a></li>
-                                        <li><a href="#">Electrical</a></li>
-                                        <li><a href="#">Plumbing</a></li>
-                                        <li><a href="#">Appliance  Services</a></li>
-                                        <li><a href="#">Carpentry</a></li>
+                                        <li><a href="all-services-bookings">Cleaning Service</a></li>
+                                        <li><a href="all-services-bookings">Pest Control</a></li>
+                                        <li><a href="all-services-bookings">Electrical</a></li>
+                                        <li><a href="all-services-bookings">Plumbing</a></li>
+                                        <li><a href="all-services-bookings">Appliance  Services</a></li>
+                                        <li><a href="all-services-bookings">Carpentry</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-xs-6">
                                 	<ul class="links">
-                                        <li><a href="#">Geyser</a></li>
-                                        <li><a href="#">Vehicle Care</a></li>
-                                        <li><a href="#">Painting</a></li>
-                                        <li><a href="#">Home Security</a></li>
-                                        <li><a href="#">Computer Repair</a></li>
+                                        <li><a href="all-services-bookings">Medical Service</a></li>
+                                        <li><a href="all-services-bookings">Auto Works</a></li>
+                                        <li><a href="all-services-bookings">Painting</a></li>
+                                        <li><a href="all-services-bookings">Home Security</a></li>
+                                        <li><a href="all-services-bookings">Computer Repair</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-12">
                             <h3>Follow us</h3>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            <p>Get updated with latest services information. Subscribe now to our mailing list</p>
                             <div class="contact-us">
                             	<input type="email" placeholder="Enter email address" />
                                 <input type="submit" class="btn btn-primary" value="Submit" />
@@ -333,40 +343,55 @@
                                 <li><a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i aria-hidden="true" class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i aria-hidden="true" class="fa fa-pinterest"></i></a></li>
-                                <li><a href="#"><i aria-hidden="true" class="fa fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="quick-links">
                         <ul class="list-inline">
-                            <li><a href="about-us.html">About us</a></li>
+                            <li><a href="about-us">About us</a></li>
                             <li><a href="#">Privacy</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="faq">FAQ</a></li>
                             <li><a href="#">Terms of Use</a></li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
-                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact-us">Contact Us</a></li>
+                            <li><a href="#">Blog</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="copyright">
-            	<div class="container">Copyright © 2015-2016 yourname.in. All Rights Reserved.</div>
+            	<div class="container">Copyright © 2020 Pascra Professional Services Provider. All Rights Reserved.</div>
             </div>
-        </footer>
+        </footer> 
     </div>
+    <!-- Scroll to top button -->
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fa fa-chevron-up"></i></a>
     <!-- JavaScript files -->
     <script src="assets/js/jquery-1.12.4.min.js"></script><!-- jquery-1.12.4.min js-->
     <script src="assets/js/bootstrap.min.js"></script><!-- bootstrap.min js-->
     <script src="assets/js/slick.min.js"></script><!-- slick js-->
     <script src="assets/js/bootstrap-select.min.js"></script><!-- Bootstrap selectbox js-->
     <script src="assets/js/waypoints.min.js"></script> 
-	<script src="assets/js/jquery.counterup.min.js"></script><!-- counter js -->
-    <script src="assets/js/jquery.form-validator.min.js"></script><!-- form-validator js-->  
-    <script type='text/javascript' src='https://maps.google.com/maps/api/js?key=AIzaSyAciPo9R0k3pzmKu6DKhGk6kipPnsTk5NU'></script>
-    <script src="assets/js/map-cstomize.js" type="text/javascript"></script><!-- map js-->
-	<script src="assets/js/custom.js"></script><!-- custom js--> 
+    <script src="assets/js/jquery.counterup.min.js"></script><!-- counter js -->
+    <script src="assets/js/custom.js"></script><!-- custom js--> 
+    <script type="text/javascript" src="assets/js/jquery-1.6.1.min.js"></script> <!-- Scroll to top script-->
+    <script>
+      $(document).ready(function(){
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+              $('#back-to-top').fadeIn();
+            } else {
+              $('#back-to-top').fadeOut();
+            }
+          });
+          // scroll body to 0px on click
+          $('#back-to-top').click(function () {
+            $('body,html').animate({
+              scrollTop: 0
+            }, 400);
+            return false;
+          });
+      });        
+          </script>
 </body>
 
-<!-- Mirrored from design.dev.drcsystems.ooo:8084/themeforest/easyliving/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Jun 2020 09:40:32 GMT -->
 </html>

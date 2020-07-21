@@ -518,8 +518,8 @@
                                 	<ul class="links">
                                         <li><a href="home">Home</a></li>
                                         <li><a href="about-us">About</a></li>
-                                        <li><a href="#">Register</a></li>
-                                        <li><a href="#">Login</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" id="myModalLabel">Register</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" id="myModalLabel">Login</a></li>
                                         <li><a href="#">Careers</a></li>
                                         <li><a href="contact-us">Contact</a></li>
                                     </ul>
@@ -536,25 +536,25 @@
                             </div>
                         </div> 
                         <div class="col-md-4 col-sm-6">
-                            <h3>Our Services</h3>
+                        <h3>Book a Services</h3>
                             <div class="row">
                             	<div class="col-xs-6">
                                 	<ul class="links">
-                                        <li><a href="#">Cleaning Service</a></li>
-                                        <li><a href="#">Pest Control</a></li>
-                                        <li><a href="#">Electrical</a></li>
-                                        <li><a href="#">Plumbing</a></li>
-                                        <li><a href="#">Appliance  Services</a></li>
-                                        <li><a href="#">Carpentry</a></li>
+                                        <li><a href="all-services-bookings">Cleaning Service</a></li>
+                                        <li><a href="all-services-bookings">Pest Control</a></li>
+                                        <li><a href="all-services-bookings">Electrical</a></li>
+                                        <li><a href="all-services-bookings">Plumbing</a></li>
+                                        <li><a href="all-services-bookings">Appliance  Services</a></li>
+                                        <li><a href="all-services-bookings">Carpentry</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-xs-6">
                                 	<ul class="links">
-                                        <li><a href="#">Medical Service</a></li>
-                                        <li><a href="#">Auto Works</a></li>
-                                        <li><a href="#">Painting</a></li>
-                                        <li><a href="#">Home Security</a></li>
-                                        <li><a href="#">Computer Repair</a></li>
+                                        <li><a href="all-services-bookings">Medical Service</a></li>
+                                        <li><a href="all-services-bookings">Auto Works</a></li>
+                                        <li><a href="all-services-bookings">Painting</a></li>
+                                        <li><a href="all-services-bookings">Home Security</a></li>
+                                        <li><a href="all-services-bookings">Computer Repair</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -575,12 +575,12 @@
                     </div>
                     <div class="quick-links">
                         <ul class="list-inline">
-                            <li><a href="about-us.html">About us</a></li>
+                            <li><a href="about-us">About us</a></li>
                             <li><a href="#">Privacy</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="faq">FAQ</a></li>
                             <li><a href="#">Terms of Use</a></li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
-                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact-us">Contact Us</a></li>
+                            <li><a href="#">Blog</a></li>
                         </ul>
                     </div>
                 </div>
