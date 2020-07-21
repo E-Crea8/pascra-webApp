@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" >
     <meta name="format-detection" content = "telephone=no">
-    <meta name="description" content="">
-    <meta name="author" content=""> 
+    <meta name="description" content="PASCRA - Professional Service Provider.">
+    <meta name="description" content="Pascra is an online platform where we connect and recommend service provider to prospective customers">
+    <meta name="author" content="E-Creations Technologies"> 
     
     <!-- Title -->
     <title>Frequently Asked Questions</title> 
     
     <!-- favicon icon -->
-    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="icon" href="assets/images/favicon.png">
     
     <!-- Icons -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet"><!-- font-awesome.min css -->

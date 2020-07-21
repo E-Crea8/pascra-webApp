@@ -11,7 +11,7 @@
     <meta name="author" content="E-Creations Technologies"> 
     
     <!-- Title -->
-    <title>Contact Us</title> 
+    <title>404 Error Page</title> 
     
     <!-- favicon icon -->
     <link rel="icon" href="assets/images/favicon.png">
@@ -68,8 +68,8 @@
                                         <li><a href="home">Home</a></li>
                                         <li><a href="about-us">About Us</a></li>
                                         <li><a href="gallery">Our Services</a></li>
-                                        <li><a href="faq">FAQ’s</a></li>
-                                        <li class="active"><a href="contact-us">Contact Us</a></li> 
+                                        <li class="active"><a href="faq">FAQ’s</a></li>
+                                        <li><a href="contact-us">Contact Us</a></li> 
                                     </ul>
                                 </div>
                             </nav>
@@ -175,83 +175,22 @@
         
         <!-- Content Start -->
         <div id="content">
-        	<!-- Contact Us Section -->
-            <section id="contact-us" class="section-block"> 
+        	<!-- 404 Section -->
+            <section class="section-block">
             	<div class="container">
-                	<div class="top-desc text-center">
-                        <h2>Contact Us</h2>
+                	<div id="404-page">
+                        <div class="top-desc text-center">
+                            <h2>This Page Could Not Be Found!</h2>
+                        </div>
+                        <div class="errorContent">
+                            <div class="error-title"><span>404</span><label>ERROR</label></div>
+                            <p>Page doesn’t exist or some other error occured. Go to our <a href="home">home page</a> or go to back <a href="#">previous page</a></p>
+                        </div>
                     </div>
-                    <div class="row">
-                    	<div class="col-sm-8">
-                        	<h3>Send Us a Message</h3>
-                        	<form id="contact_form" method="POST">
-                            	<div class="row">
-                                	<div class="col-md-6">
-                                    	<div class="form-group">
-                                        	<label>First Name</label>
-                                            <input type="text" name="firstname" id="firstName" class="form-control" data-validation="required" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                    	<div class="form-group">
-                                        	<label>Last Name</label>
-                                            <input type="text" name="lastname" id="lastName" class="form-control" data-validation="required"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                	<div class="col-md-6">
-                                    	<div class="form-group">
-                                        	<label>Email</label>
-                                            <input type="email" name="email" id="emailAddress" class="form-control" data-validation="email"  data-validation-error-msg="Invalid e-mail address"/>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                    	<div class="form-group">
-                                        	<label>Phone Number</label>
-                                            <input type="text" name="phone" id="phoneNo" class="form-control" data-validation="required"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Message</label>
-                                    <textarea name="message" id="message" class="form-control" ></textarea>
-                                </div>
-                                <div class="form-group">
-                                	<input type="submit" class="btn btn-info" onclick="return validate()" value="SEND" id="attending_btn"/>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-sm-4">
-                        	<h3>Our Office Address</h3>
-                            <address>
-                            <p><i class="fa fa-map-marker" aria-hidden="true"></i><strong>Head Office</strong>
-                            <br>19 Fatai Irawo Street, 
-Off Airport Road, 
-Ajao Estate,<br> Isolo, Lagos
-Lagos Sate 
-</p>
-<p><i class="fa fa-map-marker" aria-hidden="true"></i><strong>Akure Office</strong>
-<br>No 10, Elemuletu Street, 
-Opposite Satabest Filling Station,
-Off Ijoka Street, Oluwatuyi Quarters
-Akure, Ondo State
-
-</p>
-<p><i class="fa fa-phone" aria-hidden="true"></i>+234 903 8803 787, +234 908 2198 226</p>
-<p><i class="fa fa-phone" aria-hidden="true"></i>+234 805 5648 932</p>
-                                <p><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:info@pascra.com">info@pascra.com</a></p>
-                            </address>
-                        </div>
-                	</div>
                 </div>
             </section>
-             <!-- Contact Map--> 
-            <!--<div class="contact-map">
-                <div id="map" class="map inside-full-height"></div>
-            </div>
-        </div>-->   
-           
+      	</div>
+        <!-- Footer Start -->
         <footer id="footer">
         	<div class="top-footer">
             	<div class="container">
@@ -346,46 +285,6 @@ Akure, Ondo State
     <script src="assets/js/jquery.counterup.min.js"></script><!-- counter js -->
     <script src="assets/js/custom.js"></script><!-- custom js--> 
     <script type="text/javascript" src="assets/js/jquery-1.6.1.min.js"></script> <!-- Scroll to top script-->
-    
-    <!--Form Validation script-->
-    <script>
-function validate() {
-
-
-  var firstName = document.getElementById('firstName');
-  var lastName = document.getElementById('lastName');
-  var emailAddress = document.getElementById('emailAddress');
-  var phoneNo = document.getElementById('phoneNo');
-var message = document.getElementById('message');
-
-if (firstName.value == "") {
-  alert("Please enter your first name!");
-  return false;
-}
-
-if (lastName.value == "") {
-  alert("Please enter your last name!");
-  return false;
-}
-
-if (phoneNo.value == "") {
-  alert("Please input your phone number!");
-  return false;
-}
-
-if (emailAddress.value == "") {
-  alert("Please enter your email address");
-  return false;
-}
-
-if (message.value == "") {
-  alert("please type a message ");
-  return false;
-}
-}
-</script>
-    
-    <!--Scroll to top script-->
     <script>
       $(document).ready(function(){
         $(window).scroll(function () {

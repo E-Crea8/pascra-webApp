@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" >
     <meta name="format-detection" content = "telephone=no">
-    <meta name="description" content="PASCRA - Professional Service Provider">
+    <meta name="description" content="PASCRA - Professional Service Provider.">
+    <meta name="description" content="Pascra is an online platform where we connect and recommend service provider to prospective customers">
     <meta name="author" content="E-Creations Technologies"> 
     
     <!-- Title -->
@@ -202,7 +203,7 @@
                     </div>
                     <div class="row">
                     	<div class="col-md-8 col-md-offset-2">
-                        	<form name="step_1" method="POST">
+                        	<form name="step_1" method="POST" action="firstInsert.php">
                               <!--
                           <div class="row">
                                 	<div class="col-sm-6">
@@ -544,7 +545,8 @@ if (servicePriority.value == "") {
   alert("Kindly select when you need the service! ");
   return false;
 }
-}</script>
+}
+</script>
     
     
     <script>
