@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+.style-box .inner-box .color-box ul li a:after {
+	transform: rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+}
+#our-customers .img:after{
+transform: translateX(-50%);
+-webkit-transform:translateX(-50%);
+-moz-transform:translateX(-50%);
+-ms-transform:translateX(-50%);
+-o-transform:translateX(-50%);
+}
+#dashboard .order-status ul li::after{
+	transform: translateY(-50%);
+-webkit-transform:translateY(-50%);
+-moz-transform:translateY(-50%);
+-ms-transform:translateY(-50%);
+-o-transform:translateY(-50%);
+}
+#how-works .icon,
+.slick-dots li{
+transform:rotate(45deg);
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-ms-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+}
+#how-works .icon i,#how-works .icon:after{
+transform:rotate(-45deg);
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-ms-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+}
+
+#services .name:after{
+transform: skew(-12deg, 0deg);
+-webkit-transform: skew(-12deg, 0deg);
+-moz-transform: skew(-12deg, 0deg);
+-ms-transform: skew(-12deg, 0deg);
+-o-transform: skew(-12deg, 0deg);
+transform-origin: left bottom 0;
+-webkit-transform-origin: left bottom 0;
+-moz-transform-origin: left bottom 0;
+-ms-transform-origin: left bottom 0;
+-o-transform-origin: left bottom 0;
+}
+
+#services .img:after{
+transform: skew(-5deg, 0deg);
+-webkit-transform: skew(-5deg, 0deg);
+-moz-transform: skew(-5deg, 0deg);
+-ms-transform: skew(-5deg, 0deg);
+-o-transform: skew(-5deg, 0deg);
+transform-origin: left bottom 0;
+-webkit-transform-origin: left bottom 0;
+-moz-transform-origin: left bottom 0;
+-ms-transform-origin: left bottom 0;
+-o-transform-origin: left bottom 0;
+}
+
+#service-provider .left-part:after{
+transform: skew(-12deg, 0deg);
+-webkit-transform: skew(-12deg, 0deg);
+-moz-transform: skew(-12deg, 0deg);
+-ms-transform: skew(-12deg, 0deg);
+-o-transform: skew(-12deg, 0deg);
+}
+.banner-text-wrapper{
+transform:translateY(-50%);
+-webkit-transform:translateY(-50%);
+-moz-transform:translateY(-50%);
+-ms-transform:translateY(-50%);
+-o-transform:translateY(-50%);
+}
+.gallery-item .links-wrap a{
+transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+  -moz-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+  -ms-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+  -o-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+  -webkit-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+}
+.gallery-item .links-wrap a.p-link{
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.1s;
+  -moz-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.1s;
+  -ms-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.1s;
+  -o-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.1s;
+  -webkit-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.1s;
+}
+.gallery-item h6.item-meta{
+	 -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  -ms-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+.gallery-item:hover h6.item-meta {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+@media (min-width: 768px) {
+.modal.in .modal-dialog{
+	transform: translate(0px, 50%);
+	-webkit-transform:translate(0px, 50%);
+	-moz-transform:translate(0px, 50%);
+	-ms-transform:translate(0px, 50%);
+	-o-transform:translate(0px, 50%);
+}
+}

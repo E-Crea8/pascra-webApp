@@ -1,0 +1,124 @@
+
+/* Blue overlay Color */
+.blue-overlay,
+.modal-backdrop{ background:rgba(0,32,52,0.8);}
+
+/* Blue Background Color */ 
+#our-features,
+.copyright,
+#header.sticky-header,
+.innerPage #header,
+.style-box .inner-box,
+.style-box .box-icon,
+.btn-primary,
+.btn-primary:active:hover, .btn-primary.active:hover, .btn-primary:active:focus, .btn-primary.active:focus,.btn-primary.focus:active, .btn-primary.active.focus, .btn-primary:hover,.btn-primary:focus, .btn-primary.focus{ background:#002034;}
+
+/* Blue Border Color */
+.blue-overlay,
+.style-box .inner-box,
+.style-box .box-icon,
+.btn-primary,
+.btn-primary:active:hover, .btn-primary.active:hover, .btn-primary:active:focus, .btn-primary.active:focus,.btn-primary.focus:active, .btn-primary.active.focus, .btn-primary:hover,.btn-primary:focus, .btn-primary.focus{ border-color:#002034;}
+
+/* Blue Font Color */
+.navigation .mobile-arrow,
+.search-wrapper .btn-group .dropdown-toggle.btn-default,
+.search-wrapper .services li a,
+#service-open,
+.ddTitle > .ddTitleText,
+.ddChild a.enabled{ color:#002034;}
+
+
+/* Red Color */
+a,h2,
+.social-links a:hover,
+#our-services .icon-box,
+#service-provider .right-part .icon span,
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,
+.dropdown-menu > li.active > a,
+.register-user .modal-content .close,
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus,#our-story h3,.service-banner h1 span,
+.panel-title > a:after,.panel-title > a:before,.panel-body:before,
+#dashboard .sidebar .nav-links ul li.active a,
+#dashboard .order-status ul li .icon-box,
+.style-box .inner-box .home-them ul li a,
+.member-detail .media-left .name,
+.filter-button-group .button.is-checked,
+.service-info .list li:before,
+.service-info .top-desc h3{ 
+	color:#FE9900;
+}
+
+/* Red Background Color */
+.top-footer,
+#how-works .icon,
+.slick-dots li.slick-active button,
+#services .name,
+#services .name:after,
+#service-provider .right-part,
+.register-user .left-part,
+.social-share li a:hover,
+#our-features .icon-box,
+#dashboard .order-status ul li.active .icon-box,
+.btn-info,
+.btn-info:active:hover,.btn-info.active:hover, .btn-info:active:focus, .btn-info.active:focus, .btn-info.focus:active, .btn-info.active.focus,.btn-info:focus, .btn-info.focus,.btn-info:hover,
+.gallery-item .links-wrap a,
+.comming-soon ,
+.vertical-menu li.selected a, .vertical-menu li:hover a, .vertical-menu li.selected a span, .vertical-menu li:hover a span{   
+	background-color:#2368A0;
+}
+
+/* Red Border Color */
+.slick-dots li button,
+.form-control:focus,
+.service-detail-wrapper .bootstrap-select.open .dropdown-toggle,#dashboard .order-status ul li .icon-box,
+.btn-info,
+.btn-info:active:hover,.btn-info.active:hover, .btn-info:active:focus, .btn-info.active:focus, .btn-info.focus:active, .btn-info.active.focus,.btn-info:focus, .btn-info.focus,.btn-info:hover,
+.gallery-item .links-wrap a,
+.comming-soon .block-one,
+.comming-soon .counter-section ul li span,
+.comming-soonHeader{ 
+	border-color:#FF9900;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus{
+	border-bottom-color:#FF9900;
+}
+
+/* Dark Red Border Color */
+#services .name::before{ border-left-color:#FF9900;}
+
+/* Red Box-shadow Color */
+.comming-soon .counter-section ul li span{ box-shadow:0 -1px 0 #FF9900;}
+
+
+/* Yellow Color */
+h1,.h1,h3,#how-works .icon,
+#service-provider .right-part .support .text,
+#service-provider .right-part .call-us .num,
+.navbar-nav > li.active > a,
+#our-info i,.navbar-nav > li > a:hover,.navbar-nav > li > a:focus{
+	color: #64C1FF;
+}
+
+/* Yellow Background Color */
+#get-app,
+#service-provider .left-part, 
+#service-provider .right-part .icon span,
+#service-provider .left-part:after,
+.progress-bar,
+.style-box .inner-box .color-box ul li a:after,
+.comming-soon .social-links ul li:hover a{  
+	background-color:#ede8b0;
+}
+
+/* Light Yellow Background Color */ 
+#plumbing-services{background-color:rgba(237,232,176,0.5);}
+
+@media (max-width: 767px) {
+/* Blue Background Color */
+.navigation{background-color:#002034;}
+}
