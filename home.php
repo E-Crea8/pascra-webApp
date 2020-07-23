@@ -215,20 +215,20 @@
                                         <div class="col-sm-8">
                                         	<div class="service-list">
                                                 <form name="myform" id="myform" enctype="multipart/form-data" method="post">
-                                                    <select class="mydds" name="myimge" onchange="location = this.value;">
-                                                        <option value="" selected="selected" title="">What service do you need?</option>
-                                                        <option value="all-services-bookings" title="icon icon-electrical" class="service1">Electrical</option>
-                                                        <option value="all-services-bookings" title="icon icon-home">Home Security</option>
-                                                        <option value="all-services-bookings" title="icon icon-pestcontrol">Pest Control</option>
-                                                        <option value="all-services-bookings" title="icon icon-computerrepair">Computer Repair</option>
-                                                        <option value="all-services-bookings" title="icon icon-cleaning">Cleaners</option>
-                                                        <option value="all-services-bookings" title="icon icon-plumber">Plumbing</option>
-                                                        <option value="all-services-bookings" title="icon icon-appliances">Appliances</option>
-                                                        <option value="all-services-bookings" title="icon icon-geyser">Fashion Designer</option>
-                                                        <option value="all-services-bookings" title="icon icon-painting">Painting</option>
-                                                        <option value="all-services-bookings" title="icon icon-vehiclecare">Vehicle Care</option>
-                                                        <option value="all-services-bookings" title="icon icon-carpentry">Carpentry</option>
-                                                        <option value="all-services-bookings" title="icon icon-home">Real Estate</option>
+                                                    <select class="selectpicker" name="myimge" onchange="location = this.value;">
+                                                        <option selected="selected" >What service do you need?</option>
+                                                        <option value="all-services-bookings" >Electrical</option>
+                                                        <option value="all-services-bookings" >Home Security</option>
+                                                        <option value="all-services-bookings" >Pest Control</option>
+                                                        <option value="all-services-bookings" >Computer Repair</option>
+                                                        <option value="all-services-bookings" >Cleaners</option>
+                                                        <option value="all-services-bookings" >Plumbing</option>
+                                                        <option value="all-services-bookings" >Appliances</option>
+                                                        <option value="all-services-bookings" >Fashion Designer</option>
+                                                        <option value="all-services-bookings" >Painting</option>
+                                                        <option value="all-services-bookings" >Vehicle Care</option>
+                                                        <option value="all-services-bookings" >Carpentry</option>
+                                                        <option value="all-services-bookings" >Real Estate</option>
 
                                                     </select>
                                                 </form>

@@ -68,7 +68,7 @@
                                         <li><a href="home">Home</a></li>
                                         <li><a href="about-us">About Us</a></li>
                                         <li><a href="gallery">Our Services</a></li>
-                                        <li class="active"><a href="faq">FAQ’s</a></li>
+                                        <li><a href="faq">FAQ’s</a></li>
                                         <li><a href="contact-us">Contact Us</a></li> 
                                     </ul>
                                 </div>

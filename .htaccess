@@ -1,4 +1,9 @@
 RewriteEngine On
+RewriteCond %{HTTP_HOST} pascra\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://pascra.com/$1 [R,L]
+
+RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 

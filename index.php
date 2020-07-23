@@ -215,7 +215,7 @@
                                         <div class="col-sm-8">
                                         	<div class="service-list">
                                                 <form name="myform" id="myform" enctype="multipart/form-data" method="post">
-                                                    <select class="mydds" name="myimge">
+                                                    <select class="mydds" name="myimge" onchange="location = this.value;">
                                                     <option value="" selected="selected" title="">What service do you need?</option>
                                                         <option value="all-services-bookings" title="icon icon-electrical" class="service1">Electrical</option>
                                                         <option value="all-services-bookings" title="icon icon-home">Home Security</option>
